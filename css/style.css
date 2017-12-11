@@ -72,11 +72,14 @@ li a:hover{
 	font-family: "Futura";
 }
 
-#signup button{
+#signupbutton{
  	background-color: #449f4b;
  	margin-top: 5rem;
  	width: 10rem;
  	margin-bottom: 5rem;
+ }
+ #signupbutton a{
+ 	color: white;
  }
  
  #footermain{
@@ -159,6 +162,10 @@ background-image: url("../images/header.jpg");
 	color: #e74f4f;
 }
 
+#abouthome a{
+	color: #e74f4f;
+}
+
 #aboutpage{
 	padding-top: 2rem;
 	background-image: url("../images/about.png");
@@ -207,14 +214,12 @@ background-image: url("../images/header.jpg");
 }
 
 #contact article{
-margin-bottom: 2rem;
+	margin-bottom: 2rem;
 }
 
 .navbar-nav{
-
-height:1rem;
-font: 8px;
-
+	height:1rem;
+	font: 8px;
 }
 
 #create{
@@ -234,6 +239,26 @@ font: 8px;
 	padding-top: 6rem;
 	color: #449f4b;
 	margin-bottom: 0;
+}
+
+#insta{
+	padding-top: 20px;
+	height: 50px;
+	width: 50px;
+}
+
+#twit{
+	padding-top: 20px;
+	height: 50px;
+	width: 50px;
+	margin-right: 18rem;
+}
+
+#sitename{
+padding-top: 20px;
+font-family:"Blacklisted";
+font-size: 1rem;
+
 }
 
 
