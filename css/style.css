@@ -43,7 +43,7 @@ li a:hover{
 #about{
 	padding-top: 2rem;
 	background-image: url("../images/about.png");
-	background-size:100%;
+	background-size:cover;
 	background-repeat: no-repeat;
 	height:30%;
 	margin-bottom: 4rem;
@@ -72,7 +72,7 @@ li a:hover{
 	font-family: "Futura";
 }
 
-#signup{
+#signup button{
  	background-color: #449f4b;
  	margin-top: 5rem;
  	width: 10rem;
@@ -86,8 +86,8 @@ li a:hover{
  }
  
 #menulogo{
-	height: 160px;
-	width: 160px;
+	height: 100px;
+	width: 100px;
 	margin-right:auto;
 	margin-left:auto;
 	padding-top: .60rem;
@@ -125,8 +125,117 @@ background-image: url("../images/header.jpg");
 	margin-bottom: 0;
 }
 
+#cocktailhome a{
+	color: #e74f4f;
+}
+
 #menucocktail img{
 	height: 300px;
 	width: 400px;
 }
+
+#pinhome a{
+	color: #e74f4f;
+}
+
+#merchPins article{
+	height: 200px;
+	width: 400px;
+	margin-bottom: 2rem;
+}
+
+#merchPins h3{
+	text-decoration: underline;
+	font-size: 2rem;
+	color: #e74f4f;
+	padding-bottom: 1rem;
+}
+
+#mughome a{
+	color: #e74f4f;
+}
+
+#shirthome a{
+	color: #e74f4f;
+}
+
+#aboutpage{
+	padding-top: 2rem;
+	background-image: url("../images/about.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:60%;
+	margin-bottom: 2rem;
+}
+
+#aboutpage h2{
+	color: #449f4b;
+	font-family: "Futura";
+	padding-bottom: 2rem;
+	padding-left: 1rem;
+}
+
+#aboutpage p{
+	color: white;
+	font-family: "PT Serif";
+	padding-top: 6rem;
+	padding-left: 1rem;
+
+}
+
+#contact{
+	padding-top: 2rem;
+	background-image: url("../images/about.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:60%;
+	margin-bottom: 2rem;
+}
+
+#contact h2{
+	color: #449f4b;
+	font-family: "Futura";
+	
+	padding-left: 1rem;
+}
+
+#contact p{
+	color: white;
+	font-family: "PT Serif";
+	
+	padding-left: 1rem;
+}
+
+#contact article{
+margin-bottom: 2rem;
+}
+
+.navbar-nav{
+
+height:1rem;
+font: 8px;
+
+}
+
+#create{
+	margin-bottom: 8rem;
+	background-color: #449f4b;
+	width: 16rem;
+	color: white;
+}
+
+#signup h2{
+	width: 230px;
+	padding-bottom: 2rem;
+}
+
+#signup p{
+	width: 100px;
+	padding-top: 6rem;
+	color: #449f4b;
+	margin-bottom: 0;
+}
+
+
+
 
