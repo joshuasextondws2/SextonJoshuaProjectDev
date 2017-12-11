@@ -9,14 +9,18 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		</head>					
 		<body>
-			<header>
+			<header id="mainpageImage" class="mx-auto">
 					<!-- Logo -->
-				<h1><img src="/" alt="App Logo"></h1>
+				<div class="container">
+					<h1 class="justify-content-center"><img src="images/logo.svg" alt="App Logo" class="img-fluid"></h1>
+				</div>
+			
 			</header>
-						
+	
+					
 						<!-- Navigation -->
-			<ul class="nav" class="text-align-center" id="nav">
-  				<li class="nav-item"><a class="nav-link"  href="#">Home</a></li>
+			<ul id="navbar" class="nav nav-justified">
+  				<li id="home" class="nav-item"><a class="nav-link"  href="#">Home</a></li>
   				<li role="presentation"  class="nav-item"><a class="nav-link" href="#">Merch</a></li>
   				<li role="presentation"  class="nav-item"><a  class="nav-link" href="#">Menu</a></li>
   				<li role="presentation"  class="nav-item"><a class="nav-link"  href="#">Contact</a></li>
@@ -26,7 +30,8 @@
 			
 		
 						 <!-- About  -->
-			<section id="about">
+			
+			<section id="about" class="container">
 				<article>
 					<h2>About</h2>
 					<p>We are the space between two realities. In the town of Twin Peaks nothing is quite as it seems.. The Black Lodge/White Lodge is the embodyment of that. The douality of a craft coffee house and Cocktail lounge. Join us, Population 51,201.</p>
@@ -34,55 +39,62 @@
 			</section>
 			
 						 <!-- Menu  -->
-			<section id="about">
+			<section id="mainMenu" class="container text-center">
+			
 				<h2>Menu</h2>
-				<ul>
-					<li>
-						<img src="images/amberale.jpg"></img>
+				<div class="row">
+				<article class="col-md-6">
+						<img src="images/amberale.jpg" class="mx-auto img-fluid" "></img>
 						<h3>Lager</h3>
 						<p>On tap special.<p>
-					</li>
-					<li>
-						<img src="images/bourbon.jpg"></img>
+					</article>
+					<article class="col-md-6">
+						<img src="images/bourbon.jpg" class="mx-auto img-fluid"></img>
 						<h3>Bourbon</h3>
 						<p>A classic.<p>
-					</li>
-					<li>
-						<img src="images/coffee.jpg"></img>
+					</article>
+					<article class="col-md-6">
+						<img src="images/coffee.jpg" class="mx-auto img-fluid"></img>
 						<h3>Coffee</h3>
 						<p>Just a simple coffee.<p>
-					</li>
-					<li>
-						<img src="images/almondmilkLatte.jpg"></img>
+					</article>
+					<article class="col-md-6">
+						<img src="images/almondmilkLatte.jpg" class="mx-auto img-fluid"></img>
 						<h3>Almond Milk Latte</h3>
 						<p>Latte with almond milk.<p>
-					</li>					
-					<li>
-						<img src="images/andrew-welch-330269.jpg"></img>
+					</article>					
+					<article class="col-md-6">
+						<img src="images/andrew-welch-330269.jpg" class="mx-auto img-fluid"></img>
 						<h3>Cortado</h3>
 						<p>Coffee or espresso mixed with equal amounts of warm milk.<p>
-					</li>
-					<li>
-						<img src="images/oldfashioned.jpg"></img>
+					</article>
+					<article class="col-md-6">
+						<img src="images/oldfashioned.jpg" class="mx-auto img-fluid"></img>
 						<h3>Old Fashioned</h3>
 						<p> A cocktail muddling sugar and bitters, then adding alcohol.<p>
-					</li>
-				</ul>
+					</article>
+				
+				</div>	<!-- Row  -->
+				
 			</section>
-		
+				
+				<div class="container">
 						<!-- Signup Button  -->
-						<button>Signup</button>
+						<button id="signup" class="item d-block mx-auto btn-lg" >Sign up</button>
 		
-		
-						<!-- Footer  -->
-						<footer>
-							<ul>
-								<li><img src="/" alt="Instagram Logo"></li>
-								<li><img src="/" alt="Twitter Logo"></li>
-							</ul>
-							<p>Black Lodge/White Lodge</p>
-						</footer>
-		
+				</div>	<!-- Container  -->
+
+						
+							<!-- Footer  -->
+							<footer>
+								<ul id="footermain" class="nav ">
+									<li class="nav-item px-2" ><img   src="/" alt="Instagram Logo"></li>
+									<li class="nav-item px-2"  ><img  src="/" alt="Twitter Logo"></li>
+									<li class="nav-item justify-content-center"><p>Black Lodge/White Lodge</p></li>
+								</ul>
+								
+							</footer>
+							
 		
 		
 		

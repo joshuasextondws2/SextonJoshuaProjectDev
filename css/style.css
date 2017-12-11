@@ -1,0 +1,132 @@
+html p{
+	font-family: "PT serif" ;
+}
+
+html h3{
+	font-family: "Futura";
+}
+
+
+#mainpageImage{
+	background-image: url("../images/redCurtains.jpg");
+	height: 92vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+h1{
+	height:250px;
+	width:250px;
+	margin-right:auto;
+	margin-left:auto;
+	padding-top: 16rem;
+}
+
+#navbar{
+	background-color: #332F2F;
+	font-size: 2rem;
+}
+
+li a{
+	color: #CBBfBf;
+}
+
+li a:hover{
+	color: #e74f4f;
+}
+
+#home a{
+	color: #e74f4f;
+}
+
+#about{
+	padding-top: 2rem;
+	background-image: url("../images/about.png");
+	background-size:100%;
+	background-repeat: no-repeat;
+	height:30%;
+	margin-bottom: 4rem;
+}
+
+#about h2{
+	color: #449f4b;
+	font-family: "Futura";
+	padding-bottom: 1rem;
+}
+
+#about p{
+	color: white;
+	font-family: "PT Serif";
+
+}
+
+#mainMenu img{
+	height: 300px;
+	width: 400px;
+}
+
+#mainMenu h2{
+	padding-bottom: 2rem;
+	color: #449f4b;
+	font-family: "Futura";
+}
+
+#signup{
+ 	background-color: #449f4b;
+ 	margin-top: 5rem;
+ 	width: 10rem;
+ 	margin-bottom: 5rem;
+ }
+ 
+ #footermain{
+ 	height: 5rem;
+ 	color: white;
+ 	background-color: #332F2F; 
+ }
+ 
+#menulogo{
+	height: 160px;
+	width: 160px;
+	margin-right:auto;
+	margin-left:auto;
+	padding-top: .60rem;
+	margin-bottom: 5rem;
+}
+
+#coffeeheader{
+background-image: url("../images/header.jpg");
+	background-size:100%;
+	background-repeat: no-repeat;
+	height:18%;
+	margin-bottom: 0;
+}
+
+#navmenu{
+	background-color: #332F2F;
+	font-size: 2rem;
+	margin-bottom: 3rem;
+}
+
+#coffeehome a{
+	color: #e74f4f;
+}
+
+#menucoffee img{
+	height: 300px;
+	width: 400px;
+}
+
+#cocktailheader{
+background-image: url("../images/header.jpg");
+	background-size:100%;
+	background-repeat: no-repeat;
+	height:18%;
+	margin-bottom: 0;
+}
+
+#menucocktail img{
+	height: 300px;
+	width: 400px;
+}
+
